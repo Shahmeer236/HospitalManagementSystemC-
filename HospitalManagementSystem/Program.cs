@@ -50,6 +50,8 @@ builder.Services.AddScoped<IPrescribedMedicineService, PrescribedMedicineService
 builder.Services.AddScoped<IPrescribedTestService, PrescribedTestService>();
 builder.Services.AddScoped<ILabTestReportService, LabTestReportService>();
 builder.Services.AddScoped<IAdminService, AdminService>();
+builder.Services.AddScoped<IFileStorageService, FileStorageService>();
+
 
 builder.Services.AddScoped<IBillService, BillService>();
 

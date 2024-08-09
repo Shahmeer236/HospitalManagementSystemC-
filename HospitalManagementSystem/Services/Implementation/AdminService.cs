@@ -38,7 +38,7 @@ namespace HospitalManagementSystem.Services.Implementation
             }
 
             // Check if the user role is admin
-            if (user.Role != "admin")
+            if (user.Role != "Admin")
             {
                 throw new ArgumentException("User does not have the admin role.");
             }
